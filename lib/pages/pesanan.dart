@@ -12,21 +12,21 @@ class PesananPage extends StatefulWidget {
         tanggal: "26/04/2023 06:29",
         foto:
             'https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png',
-        nama: 'Didit Tekhnik',
-        desc: '5758 Tekhnik',
+        nama: 'Real Madrid',
+        desc: 'Otw 15 Ucl',
         desc2: 'Menunggu Konfirmasi'),
     Item(
         tanggal: "26/04/2023 06:29",
         foto:
             'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm19U7OC3lsenI9oUPZkiQ2VoWPOZ2eTNwDlfq7jjJ4A&s',
-        nama: 'Danish Jaya tekhnik',
-        desc: '5758 Tekhnik',
+        nama: 'BvB',
+        desc: 'Loyalitas',
         desc2: 'Menunggu Konfirmasi'),
     Item(
         tanggal: "26/04/2023 06:25",
         foto:
             'https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png',
-        nama: 'Free Kuota',
+        nama: 'Munyuk',
         desc: '',
         desc2: 'Menunggu Konfirmasi')
   ];
@@ -105,11 +105,11 @@ class _PesananPageState extends State<PesananPage> {
                             ),
                             Row(
                               children: [
-                                Text(item.desc),
+                                Text(item.desc, style: TextStyle(color: Colors.cyan),),
                                 SizedBox(
                                   width: 10,
                                 ),
-                                Text(item.desc2)
+                                Text(item.desc2, style: TextStyle(color: Colors.orangeAccent),)
                               ],
                             )
                           ],
